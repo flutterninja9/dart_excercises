@@ -1,7 +1,7 @@
 import '../domain/shape_usecase.dart';
 
 class Square extends Shape {
-  Square({required this.side});
+  Square({this.side});
   final double side;
 
   @override

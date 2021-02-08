@@ -1,4 +1,4 @@
-double findArea({required double height, required double width}) {
+double findArea({double height, double width}) {
   return height * width;
 }
 

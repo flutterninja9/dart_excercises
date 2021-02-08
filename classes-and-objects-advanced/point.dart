@@ -2,7 +2,7 @@
 // As all the classes are also the base-class of Object type in Dart, We can override the toString method
 
 class Point {
-  const Point({required this.x, required this.y});
+  const Point({this.x, this.y});
   final int x;
   final int y;
 

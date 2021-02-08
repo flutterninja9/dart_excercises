@@ -2,8 +2,8 @@
 
 class UserDetails {
   UserDetails({
-    required this.name,
-    required this.age,
+    this.name,
+    this.age,
   });
   final String name;
   int age;

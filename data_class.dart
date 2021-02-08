@@ -9,23 +9,23 @@ class User {
   final String last_name;
   final int age;
   User({
-    required this.username,
-    required this.address,
-    required this.contact,
-    required this.uid,
-    required this.first_name,
-    required this.last_name,
-    required this.age,
+    this.username,
+    this.address,
+    this.contact,
+    this.uid,
+    this.first_name,
+    this.last_name,
+    this.age,
   });
 
   User copyWith({
-    required String username,
-    required String address,
-    required String contact,
-    required String uid,
-    required String first_name,
-    required String last_name,
-    required int age,
+    String username,
+    String address,
+    String contact,
+    String uid,
+    String first_name,
+    String last_name,
+    int age,
   }) {
     return User(
       username: username,

@@ -2,7 +2,7 @@ class BankAccount {
   //! First way of doing it by Default Constructur : BankAccount(int balance) { this.balance = balance; }
   //! Second way of doing it by initializer list : BankAccount(int balance) : balance = balance;
   //* Best way
-  BankAccount({required this.balance, required this.accountMaster});
+  BankAccount({this.balance, this.accountMaster});
   int balance;
   String accountMaster;
   void withDraw(int amt) {

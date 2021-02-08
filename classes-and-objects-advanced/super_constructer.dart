@@ -3,18 +3,18 @@
 // super assistes in passing required values needed by its SuperClass
 
 class Animal {
-  Animal({required this.age});
+  Animal({this.age});
   final int age;
   void sleep() => print('Sleep');
 }
 
 class Dog extends Animal {
-  Dog({required int age}) : super(age: age);
+  Dog({int age}) : super(age: age);
   void bark() => print('Bark');
 }
 
 class CleverDog extends Dog {
-  CleverDog({required int age}) : super(age: age);
+  CleverDog({int age}) : super(age: age);
   void catchBall() => print('Catch the ball');
 }
 

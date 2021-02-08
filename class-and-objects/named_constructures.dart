@@ -8,8 +8,8 @@
 
 class Person {
   Person({
-    required this.age,
-    required this.name,
+    this.age,
+    this.name,
   });
   // Now here Anirudh is Predefined and we can use it wherever we want without even defining it again
   Person.Anirudh()

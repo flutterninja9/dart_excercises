@@ -2,7 +2,7 @@
 // Let's take the example of Point, again!!!
 
 class Point {
-  const Point({required this.x, required this.y});
+  const Point({this.x, this.y});
   final int x;
   final int y;
 

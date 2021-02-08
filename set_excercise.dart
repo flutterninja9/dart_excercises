@@ -1,6 +1,6 @@
 // Write a function which gives elements belonging to setA or setB , but not both
 
-Set<int> getResult({required Set<int> setA, required Set<int> setB}) {
+Set<int> getResult({Set<int> setA, Set<int> setB}) {
   Set<int> tempA = setA.difference(setB);
   Set<int> tempB = setB.difference(setA);
   Set<int> resultSet = tempA.union(tempB);

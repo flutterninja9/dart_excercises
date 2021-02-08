@@ -1,8 +1,8 @@
 class Person {
   Person({
-    required this.age,
-    required this.height,
-    required this.name,
+    this.age,
+    this.height,
+    this.name,
   });
   String name;
   double height;

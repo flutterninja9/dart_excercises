@@ -58,7 +58,7 @@ class DepositException implements Exception {
   }
 }
 
-void deposit({required int amount}) {
+void deposit({int amount}) {
   amount <= 0
       ? throw new DepositException()
       : print("Amount deposited successfully!");

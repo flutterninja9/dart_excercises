@@ -13,7 +13,7 @@ abstract class Shape {
 }
 
 class Circle extends Shape {
-  Circle({required this.radius});
+  Circle({this.radius});
   final int radius;
 
   @override
@@ -21,7 +21,7 @@ class Circle extends Shape {
 }
 
 class Square extends Shape {
-  Square({required this.side});
+  Square({this.side});
   final double side;
 
   @override

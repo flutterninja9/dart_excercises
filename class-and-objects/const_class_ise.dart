@@ -3,8 +3,8 @@
 
 class Complex {
   const Complex({
-    required this.im,
-    required this.re,
+    this.im,
+    this.re,
   });
   final double re;
   final double im;

@@ -1,5 +1,5 @@
 class Point {
-  Point({required this.x, required this.y});
+  Point({this.x, this.y});
   final int x;
   final int y;
 

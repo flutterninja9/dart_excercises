@@ -3,7 +3,7 @@ import 'dart:math';
 import '../domain/shape_usecase.dart';
 
 class Circle extends Shape {
-  Circle({required this.radius});
+  Circle({this.radius});
   final double radius;
 
   @override
