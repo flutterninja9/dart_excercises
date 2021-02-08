@@ -11,17 +11,15 @@ class Stack<T> {
 }
 
 void main() {
+  // Stack of int
   final stack = Stack<int>();
   stack.push(10);
   stack.push(20);
-  stack.push(30);
   stack.pop();
   print(stack._stack);
+  // Stack of String
   final stackII = Stack<String>();
   stackII.push('sa');
   stackII.push('sb');
-  stackII.push('sc');
-  stackII.push('sd');
   stackII.pop();
-  print(stackII._stack);
 }
