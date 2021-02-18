@@ -8,8 +8,8 @@ extension SumIterableX<T extends num> on Iterable<T> {
 }
 
 void main() {
-  final listSumA = [1, 2, 3].sum();
-  final listSumB = [1.0, 2.0, 3.2].sum();
+  final int listSumA = [1, 2, 3].sum();
+  final double listSumB = [1.0, 2.0, 3.2].sum();
   print(listSumA);
   print(listSumB);
 }
