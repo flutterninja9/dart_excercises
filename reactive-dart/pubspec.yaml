@@ -1,0 +1,9 @@
+name: "stream"
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  equatable: ^2.0.0
+  http: ^0.13.1
+  rxdart: ^0.26.0
