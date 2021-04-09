@@ -83,10 +83,10 @@
       "name": "stream",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.10"
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-04-09T11:43:31.933183Z",
+  "generated": "2021-04-09T11:50:56.436194Z",
   "generator": "pub",
   "generatorVersion": "2.12.0"
 }
