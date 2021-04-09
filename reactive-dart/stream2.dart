@@ -1,4 +1,4 @@
-// This program has other types of streams
+// This program has other factory constructurs of streams
 
 main(List<String> args) async {
   final stream = Stream.fromIterable([1, 2, 3, 4, 5]);
@@ -9,6 +9,8 @@ main(List<String> args) async {
     Future.value(102),
     Future.value(103),
   ]);
+  final stream4 = Stream<int>.periodic(Duration(seconds: 1), (num) => 1);
+
   await stream.forEach((element) {
     print(element);
   });
@@ -18,4 +20,8 @@ main(List<String> args) async {
   await stream3.forEach((element) {
     print(element);
   });
+  // Will print 1 after intervals of 1 second
+  // await stream4.forEach((element) {
+  //   print(element);
+  // });
 }
