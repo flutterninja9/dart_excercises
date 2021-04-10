@@ -9,6 +9,7 @@ main(List<String> args) async {
     Future.value(102),
     Future.value(103),
   ]);
+  // ignore: unused_local_variable
   final stream4 = Stream<int>.periodic(Duration(seconds: 1), (num) => 1);
 
   await stream.forEach((element) {
